@@ -18,8 +18,8 @@ print("4.divide")
 while True:
     user = input("enter ur choice")
     if user in ('1','2','3','4'):
-        num1 = input("enter first number")
-        num2 = input("enter second number")
+        num1 = float(input("enter first number"))
+        num2 = float(input("enter second number"))
 
         if user == '1':
             print(num1, '+', num2, '=', add(num1,num2))
