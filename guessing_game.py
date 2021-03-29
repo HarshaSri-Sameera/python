@@ -1,17 +1,16 @@
-import random
-
+import random                                                           # Imported the random module
 answer = random.randint(1, 11)
-print("""RULES TO PLAY GUESSING GAME:
+print("""RULES TO PLAY GUESSING GAME:                                   
         1) Guess a number between 1 to 10
         2) To exit the game press the number zero
         """)
 print('okay! now guess any no. from 1 to 10:')
 guess = int(input())
-if guess == answer:                                    
+if guess == answer:                                                     # Game logic
     print("you got it first time")
     print("Excellent! you are good at guessing random numbers")
 else:
-    while guess != answer:
+    while guess != answer:      
         if guess < answer:
             print("guess higher")
         else:
