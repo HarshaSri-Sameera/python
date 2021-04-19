@@ -1,4 +1,4 @@
-# calculator.github.io
+# calculator.py
 to do some arithemetic operations
 def add(x, y):
     return x + y
