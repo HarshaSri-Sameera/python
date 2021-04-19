@@ -25,3 +25,6 @@ for count in range(1, 101):
 
 **********
 
+## [4.plants.py](https://github.com/HarshaSri-Sameera/python/blob/main/plants.py)
+This program prints the items on the list into two separate lists again,
+to print all the flowers and shrubs in two different lists respectively.
