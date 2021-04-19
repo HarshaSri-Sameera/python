@@ -9,7 +9,7 @@ Guess the number from 1 to 10 which is generated randomly.
 ----------
 
 ## Sum of 1 to 100 numbers using ```for``` loop
-```
+```python
 total = 0
 for count in range(1, 101):
     total = total + count
